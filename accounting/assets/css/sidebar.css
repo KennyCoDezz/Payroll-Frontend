@@ -1,0 +1,54 @@
+._wrapper {
+    background: #9861F0;
+}
+
+._account {
+    margin-top: 2.5rem;
+}
+
+._account i {
+    font-size: 8rem;
+    line-height: 0;
+}
+
+._account h5 {
+    font-size: 1.1rem;
+}
+
+._sidebar a {
+    color: white;
+}
+
+._sidebar a i {
+    font-size: 1.3rem;
+    line-height: 0;
+}
+
+._sidebar a:focus {
+    color: white;
+}
+
+._sidebar a.active:focus {
+    color: #9861F0;
+}
+
+._sidebar a:hover {
+    background: white;
+    color: #9861F0;
+}
+
+#dropdown1 i {
+    transition: transform .25s ease-in-out;
+}
+.rotate {
+    transform: rotate(-90deg); 
+}
+
+.col-xl-2-5 {
+    width: 20.83333%; 
+}
+
+.ps-4-5 {
+    padding-left: 2.25rem;
+}
+
