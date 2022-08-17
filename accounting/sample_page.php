@@ -6,19 +6,20 @@
     <link rel="stylesheet" href="assets/css/sidebar.css">
     <link rel="stylesheet" href="assets/css/sample_page.css">
     <link rel="stylesheet" type="text/css" href="../components/bootstrap_icons/node_modules/bootstrap-icons/font/bootstrap-icons.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample Page</title>
 </head>
 
-<body class="dashboard"> <!-- add class to body tag according to link name -->
+<body class="dashboard">
+    <!-- add class to body tag according to link name -->
     <div class="container-fluid">
         <div class="row flex-nowrap">
             <!-- Put include below for sidebar -->
             <?php
-                include 'includes/sidebar.html';
+            include 'includes/sidebar.html';
             ?>
 
-            <div class="col py-3">
+            <div class="col py-3 min-vh-100">
                 Put your page content here...
             </div>
         </div>
