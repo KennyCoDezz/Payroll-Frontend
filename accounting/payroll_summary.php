@@ -19,7 +19,6 @@
 
             <div class="col py-3">
            
-
             <!-- Insert head navigation here-->
 
             <!-- Table part ---> 
