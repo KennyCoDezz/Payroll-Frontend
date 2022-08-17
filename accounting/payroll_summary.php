@@ -18,36 +18,156 @@
             ?>
 
             <div class="col py-3">
-              
-            <table class="table">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>   
+           
+
+            <!-- Insert head navigation here-->
+
+            <!-- Table part ---> 
+
+            <div class="overflow-auto" style="height: 500px;">
+              <table class="table">
+                <tbody>
+                    <tr>
+                      <th>Name of Employee:</th>
+                      <td></td>
+                      <td>John Doe</td>
+                    </tr>
+                  
+                    <tr>
+                      <th>Payroll Period:</th>
+                      <td></td>
+                      <td>August 1-15, 2022</td>
+                    </tr>
+
+                    <tr>
+                      <th>Payroll Date:</th>
+                      <td></td>
+                      <td>August 15, 2022</td>
+                    </tr>
+
+                    <tr>
+                      <th>Status:</th>
+                      <td></td>
+                      <td>Claimed</td>  
+                    </tr>
+
+                    <tr>
+                      <th>Rate per Day:</th>
+                      <td></td>
+                      <td>500</td>  
+                    </tr>
+
+                    <tr>
+                      <th>Rate per Hour:</th>
+                      <td></td>
+                      <td>55.56</td>  
+                    </tr>
+
+                    <tr>
+                      <td></td>
+                      <th>Total Number of Hours Worked</th>
+                      <td>96</td>  
+                    </tr>
+
+                    <tr>
+                      <td></td>
+                      <th>Adjustment/s (additional):</th>
+                      <td>0.00</td>  
+                    </tr>
+
+                    <tr>
+                      <td></td>
+                      <th>Adjustment/s (deduction):</th>
+                      <td>0.00</td>  
+                    </tr>
+
+                    <tr>
+                      <td></td>
+                      <th>Total Basic Pay</th>
+                      <td>0.00</td>  
+                    </tr>
+
+                    <tr>
+                      <td></td>
+                      <th>Gross Pay</th>
+                      <td>0.00</td>  
+                    </tr>
+
+                    <tr>
+                      <th>Deductions</th>
+                      <td></td>
+                      <td></td>  
+                    </tr>
+
+                    <tr>
+                      <td></td>
+                      <th>SSS:</th>
+                      <td>0.00</td>  
+                    </tr>
+
+                    <tr>
+                      <td></td>
+                      <th>PHIC:</th>
+                      <td>0.00</td>  
+                    </tr>
+
+                    <tr>
+                      <td></td>
+                      <th>HDMF:</th>
+                      <td>0.00</td>  
+                    </tr>
+
+                    <tr>
+                      <td></td>
+                      <th>W/tax:</th>
+                      <td>0.00</td>  
+                    </tr>
+
+                    <tr>
+                      <td></td>
+                      <th>Absence/s:</th>
+                      <td>0.00</td>  
+                    </tr>
+
+                    <tr>
+                      <td></td>
+                      <th>Advance/s:</th>
+                      <td>0.00</td>  
+                    </tr>
+
+                    <tr>
+                      <td></td>
+                      <th>HDMF Loan:</th>
+                      <td>0.00</td>  
+                    </tr>
+
+                    <tr>
+                      <td></td>
+                      <th>SSS Loan:</th>
+                      <td>0.00</td>  
+                    </tr>
+
+                    <tr>
+                      <td></td>
+                      <th>Cash Bond:</th>
+                      <td>0.00</td>  
+                    </tr>
+
+                    <tr>
+                      <th>Total Deduction:</th>
+                      <td></td>
+                      <td>0.00</td>  
+                    </tr>
+
+                    <tr>
+                      <th>Net Pay:</th>
+                      <td></td>
+                      <th>0.00</th>  
+                    </tr>
+
+                  </tbody>
+              </table>  
+          </div>
             </div>
         </div>
     </div>
