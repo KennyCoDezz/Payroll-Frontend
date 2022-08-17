@@ -1,7 +1,7 @@
 /* 
 **Add these styles to highlight current page
 *Refer to sidebar.html file to find the class name of link
-*/
+    */
 .dashboard .dashboard_link {
     background: white;
     color: #9861F0;
