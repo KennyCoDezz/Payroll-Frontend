@@ -1,5 +1,6 @@
 ._wrapper {
     background: #9861F0;
+    min-height: 100%;
 }
 
 ._account {
@@ -40,15 +41,53 @@
 #dropdown1 i {
     transition: transform .25s ease-in-out;
 }
+
 .rotate {
     transform: rotate(-90deg); 
-}
-
-.col-xl-2-5 {
-    width: 20.83333%; 
 }
 
 .ps-4-5 {
     padding-left: 2.25rem;
 }
+
+@media (min-width: 768px) 
+    and (max-width: 1400px) { 
+        .col-xl-2-5 {
+            width: 20.83333%; 
+        }
+        ._sidebar a {
+            flex-direction: row;
+        }
+}
+
+@media (min-width: 0) and (max-width: 768px) { 
+        ul#menu {
+            gap: 1.3rem !important;
+        }
+        ._sidebar a {
+            padding: .4rem .2rem;
+            flex-direction: column;
+            justify-content: center !important;
+            align-items: center !important;
+            font-size: .9rem;
+            inline-size: 80px;
+            text-align: center;
+        }
+        ._sidebar a i {
+            font-size: 1.3rem !important;
+            padding: .1rem 0;
+            display: inline-block;
+            text-align: center;
+        }
+        .ps-4-5 {
+            padding-left: 1rem;
+        }
+        ._account i {
+            font-size: 4rem;
+        }
+        ._account h5 {
+            font-size: 0;
+        }
+}
+
 

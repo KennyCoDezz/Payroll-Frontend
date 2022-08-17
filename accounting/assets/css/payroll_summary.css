@@ -1,0 +1,21 @@
+/* 
+**Add these styles to highlight current page
+*Refer to sidebar.html file to find the class name of link
+    */
+    .dashboard .dashboard_link {
+        background: white;
+        color: #9861F0;
+    }
+    
+    .dashboard_link:active {
+        color: #9861F0;
+    }
+
+    .my-custom-scrollbar {
+        position: relative;
+        height: 200px;
+        overflow: auto;
+        }
+    .table-wrapper-scroll-y {
+        display: block;
+        }
