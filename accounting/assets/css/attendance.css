@@ -1,0 +1,31 @@
+/* 
+**Add these styles to highlight current page
+*Refer to sidebar.html file to find the class name of link
+*/
+.attendance .attendance_link {
+    background: white;
+    color: #9861F0;
+}
+
+.attendance_link:active {
+    color: #9861F0;
+}
+
+#attendance-card{
+    background-color: #9861F0;
+    font-size: xx-large;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+#download, #search-button {
+    background-color: #9861F0;
+    border: #9861F0;
+}
+
+#testing{
+    display:flex;
+    align-items: flex-end;
+}
