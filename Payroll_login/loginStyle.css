@@ -1,0 +1,41 @@
+body {
+    background-color: #FFF8BC;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 30px;
+}
+
+.loginform {
+    margin: auto;
+    margin-top: 200px;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.form-control {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 15px;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.forgotPass {
+    font-size: 15px;
+    padding: 12px;
+}
+
+.btn_submit {
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    background-color:#9861F0;
+    color: white;
+}
