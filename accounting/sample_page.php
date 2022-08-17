@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="assets/css/sidebar.css">
     <link rel="stylesheet" href="assets/css/sample_page.css">
     <link rel="stylesheet" type="text/css" href="../components/bootstrap_icons/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Sample Page</title>
 </head>
 

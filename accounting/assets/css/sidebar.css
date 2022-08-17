@@ -17,6 +17,7 @@
 
 ._sidebar a {
     color: white;
+    white-space: nowrap
 }
 
 ._sidebar a i {
@@ -44,11 +45,44 @@
     transform: rotate(-90deg); 
 }
 
-.col-xl-2-5 {
-    width: 20.83333%; 
-}
-
 .ps-4-5 {
     padding-left: 2.25rem;
 }
+
+@media (min-width: 768px) 
+    and (max-width: 1400px) { 
+        .col-xl-2-5 {
+            width: 20.83333%; 
+        }
+        ._sidebar a {
+            flex-direction: row;
+        }
+}
+
+@media (min-width: 0) and (max-width: 768px) { 
+        ._sidebar a {
+            flex-direction: row-reverse;
+            font-size: 0;
+        }
+        ._sidebar a i {
+            font-size: 1.3rem;
+            width: 100%;
+            padding: .5rem 0;
+            display: inline;
+        }
+        ._sidebar:hover {
+            background: white;
+            color: #9861F0;
+        }
+        .ps-4-5 {
+            padding-left: 1rem;
+        }
+        ._account i {
+            font-size: 3rem;
+        }
+        ._account h5 {
+            font-size: 0;
+        }
+}
+
 
